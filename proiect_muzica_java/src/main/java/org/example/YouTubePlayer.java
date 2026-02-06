@@ -46,11 +46,17 @@ public class YouTubePlayer {
     }
 
     private static File findFile(String filename) {
-        String exactPath = "C:\\Users\\Paul\\Desktop\\proiecte personale\\proiect_muzica_java\\" + filename;
-        File f = new File(exactPath);
-        if (f.exists()) return f;
-        f = new File(filename);
-        if (f.exists()) return f;
+        // Căutăm în mai multe locații posibile
+        String[] searchPaths = {
+            "C:\\Users\\Paul\\Desktop\\proiecte personale\\YoutubeLinksPlayer\\proiect_muzica_java\\",
+            System.getProperty("user.dir") + File.separator,
+            ""
+        };
+
+        for (String path : searchPaths) {
+            File f = new File(path + filename);
+            if (f.exists()) return f;
+        }
         return null;
     }
 
