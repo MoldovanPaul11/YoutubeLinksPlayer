@@ -205,14 +205,13 @@ proiect_muzica_java/
 │               ├── 📄 MusicPlayer.java    # Player simplu pentru fișiere locale
 │               ├── 📄 YouTubePlayer.java  # Logică extragere și descărcare YouTube
 │               └── 📄 YoutubeUtils.java   # Utilități helper
-├── 📁 target/                              # Folder output (după build)
+├── 📁 target/                             # Folder output (după build)
 │   └── 📄 proiect_muzica_java-1.0-SNAPSHOT.jar
-├── 📄 pom.xml                              # Configurare Maven
-├── 📄 README.md                            # Acest fișier
-├── 📄 cookies.txt                          # Cookie-uri YouTube (opțional)
-├── 📄 yt-dlp.exe                           # Executabil yt-dlp (Windows)
-└── 📄 ffmpeg.exe                           # Executabil FFmpeg (Windows)
----
+├── 📄 pom.xml                             # Configurare Maven
+├── 📄 README.md                           # Acest fișier
+├── 📄 cookies.txt                         # Cookie-uri YouTube (opțional)
+├── 📄 yt-dlp.exe                          # Executabil yt-dlp (Windows)
+└── 📄 ffmpeg.exe                          # Executabil FFmpeg (Windows)
 
 ## 🛠️ Tehnologii Utilizate
 
